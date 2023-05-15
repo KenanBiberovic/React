@@ -1,0 +1,77 @@
+@import url("https://fonts.cdnfonts.com/css/tetris");
+.btn-wrap {
+  font-family: "Tetris", sans-serif;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.home-btn {
+  font-family: "Tetris", sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 50px;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.home-btn:hover {
+  background-color: rgb(27, 25, 25);
+}
+.away-btn {
+  font-family: "Tetris", sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.away-btn:hover {
+  background-color: rgb(27, 25, 25);
+}
+.reset-btn {
+  font-family: "Tetris", sans-serif;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.reset-btn:hover {
+  background-color: rgb(27, 25, 25);
+}
+
+.result-wrap {
+  font-family: "Tetris", sans-serif;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.home-result {
+  margin-right: 220px;
+  margin-left: -40px;
+  margin-top: -120px;
+}
+.away-result {
+  margin-top: -120px;
+}
